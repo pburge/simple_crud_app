@@ -1,2 +1,2 @@
-# simple_crud_app
-# test push before the fun starts
+#A CRUD eCommerce application
+This simple app was created to reinforce my skillet and to also learn new things.
