@@ -37,16 +37,16 @@ public class Product {
 	private String description;
 	
 	@Column(name="unit_price")
-	private Double unit_price;
+	private Double unitPrice;
 	
 	@Column(name="image_url")
-	private String image_url;
+	private String imageUrl;
 	
 	@Column(name="active")
 	private boolean active;
 	
 	@Column(name="units_in_stock")
-	private int units_in_stock;
+	private int unitsInStock;
 	
 	@Column(name="date_created")
 	@CreationTimestamp
@@ -80,17 +80,17 @@ public class Product {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Double getUnit_price() {
-		return unit_price;
+	public Double getUnitPrice() {
+		return unitPrice;
 	}
-	public void setUnit_price(Double unit_price) {
-		this.unit_price = unit_price;
+	public void setUnitPrice(Double unitPrice) {
+		this.unitPrice = unitPrice;
 	}
-	public String getImage_url() {
-		return image_url;
+	public String getImageUrl() {
+		return imageUrl;
 	}
-	public void setImage_url(String image_url) {
-		this.image_url = image_url;
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
 	}
 	public boolean isActive() {
 		return active;
@@ -98,11 +98,11 @@ public class Product {
 	public void setActive(boolean active) {
 		this.active = active;
 	}
-	public int getUnits_in_stock() {
-		return units_in_stock;
+	public int getUnitsInStock() {
+		return unitsInStock;
 	}
-	public void setUnits_in_stock(int units_in_stock) {
-		this.units_in_stock = units_in_stock;
+	public void setUnitsInStock(int unitsInStock) {
+		this.unitsInStock = unitsInStock;
 	}
 	public Date getDateCreated() {
 		return dateCreated;
